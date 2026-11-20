@@ -36,7 +36,7 @@ jamjar projects is Keddy's platform for **connecting her ideas with people**, an
 - No frameworks, build tools, or new JS libraries without Keddy's OK.
 - Compress images before adding them (WebP or AVIF, under ~200 KB each).
 - Keep the total page weight as low as possible; flag it if `index.html` grows past ~1 MB.
-- No third-party scripts beyond Google Fonts and Web3Forms.
+- No third-party scripts beyond Google Fonts and Web3Forms. YouTube talks embed via youtube-nocookie with `loading="lazy"`; keep it that way.
 
 ### 🔒 Secure and private
 - Never commit secrets, API keys, tokens, or `.env` files. (The Web3Forms access key is public by design; that's fine.)
@@ -59,5 +59,5 @@ jamjar projects is Keddy's platform for **connecting her ideas with people**, an
 
 ## Known to-dos
 
-- [ ] Privacy policy says the site is hosted on Vercel; it's actually on Netlify. Fix in the Design artifact and re-export.
+- [x] Privacy policy now says Netlify (was Vercel) and covers YouTube embeds.
 - [ ] Connect Netlify to this repo so pushes to `main` deploy automatically.
