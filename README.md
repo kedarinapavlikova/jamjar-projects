@@ -30,7 +30,7 @@ Together: the stuff I make for real life.
 ## How it's built
 
 - **One file:** `index.html` is a self-contained page exported from a Claude Design artifact. Fonts and images are packed inside.
-- **Hosting:** Netlify.
+- **Hosting:** Netlify, auto-deployed from `main`.
 - **Contact form:** [Web3Forms](https://web3forms.com) sends notes straight to Keddy's inbox. No database, no tracking.
 - **No build step:** open `index.html` in a browser and you're looking at the site.
 

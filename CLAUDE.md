@@ -60,4 +60,4 @@ jamjar projects is Keddy's platform for **connecting her ideas with people**, an
 ## Known to-dos
 
 - [x] Privacy policy now says Netlify (was Vercel) and covers YouTube embeds.
-- [ ] Connect Netlify to this repo so pushes to `main` deploy automatically.
+- [x] Netlify is linked to this repo: every push to `main` deploys to jamjarprojects.netlify.app automatically. No build command; publishes the repo root.
