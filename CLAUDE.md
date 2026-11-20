@@ -19,7 +19,7 @@ jamjar projects is Keddy's platform for **connecting her ideas with people**, an
 | `README.md` | Public overview of the project. |
 | `CLAUDE.md` | This file. |
 
-**Source of truth:** the Claude Design artifact "jamjar website". For layout or design changes, edit the artifact, re-export, and replace `index.html`. For small text fixes, editing `index.html` directly is fine; search for the exact string and change only that.
+**Source of truth:** this repo. `index.html` started as an export from the "jamjar website" Claude Design artifact, but it has been edited since (talks, writing card, privacy fixes). **Never re-export from the artifact over `index.html`**; that would wipe those changes. Edit `index.html` directly: its page content lives in the JSON string inside `<script type="__bundler/template">`. Parse it, change only what you need, and re-serialize with `</` escaped as `<\u002F`.
 
 ## Non-negotiables
 
